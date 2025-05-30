@@ -15,3 +15,8 @@ print(short)
 #Negative slicing
 Name2="hello"
 print(Name2[-4:-1])
+
+#Slicing using skip value
+word="amazon"
+len=word[1:6:2]
+print(len)
